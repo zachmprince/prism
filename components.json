@@ -945,6 +945,10 @@
 			"alias": "moon",
 			"owner": "RunDevelopment"
 		},
+		"moose": {
+			"title": "MOOSE Input",
+			"owner": "idaholab"
+		},
 		"n1ql": {
 			"title": "N1QL",
 			"owner": "TMWilds"
