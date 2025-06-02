@@ -31,11 +31,11 @@ Prism.languages.moose = {
         pattern: /(?:\b\w+\<\<\<.*?\>\>\>)(?=\s*=\s*)/,
     },
     'moose-order': {
-        pattern: /(\border.*=\s*)CONSTANT|FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|EIGHTH|NINTH/i,
+        pattern: /(?<=\border.*=\s*)CONSTANT|FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|EIGHTH|NINTH/i,
         alias: 'constant',
     },
     'moose-family': {
-        pattern: /(?<=\bfamily.*?=\s*)LAGRANGE|LAGRANGE_VEC|MONOMIAL|MONOMIAL_VEC|HERMITE|SCALAR|HIERARCHIC|SIDE_HIERARCHIC|CLOUGH|XYZ|SZABAB|BERNSTEIN|RATIONAL_BERNSTEIN|L2_LAGRANGE|L2_HIERARCHIC/i,
+        pattern: /(?<=\bfamily.*?=\s*)LAGRANGE_VEC|LAGRANGE|MONOMIAL_VEC|MONOMIAL|HERMITE|SCALAR|SIDE_HIERARCHIC|HIERARCHIC|CLOUGH|XYZ|SZABAB|BERNSTEIN|RATIONAL_BERNSTEIN|L2_LAGRANGE|L2_HIERARCHIC/i,
         alias: 'constant',
     },
     'moose-elem-type': {
